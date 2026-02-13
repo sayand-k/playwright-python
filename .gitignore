@@ -1,5 +1,29 @@
+# Virtual Environment
 venv/
+.env/
+
+# Python
 __pycache__/
 *.pyc
-report.html
+*.pyo
+*.pyd
+
+# Pytest
+.pytest_cache/
+htmlcov/
+coverage.xml
+*.cover
+
+# Playwright
 .playwright/
+playwright-report/
+test-results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+report.html
