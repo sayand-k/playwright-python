@@ -20,7 +20,7 @@ def test_add_item_to_cart(page):
     inventory_page.add_first_item_to_cart()
 
     cart_count = inventory_page.get_cart_count()
-    assert cart_count == "5"
+    assert cart_count == "1"
 
 
 def test_invalid_login(page):
